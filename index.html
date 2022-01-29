@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light"
+      rel="stylesheet"
+    />
+    <!--<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css"
+    />-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--page container -->
+      <div class="text-box" contenteditable="true">
+        <textarea name="" id=""></textarea>
+      </div>
+      <div class="float-left" contenteditable="true">
+        <!--Save text box contain spoken text -->
+        <i class="fa fa-download" aria-hidden="true"></i>
+      </div>
+      <div class="float-right" contenteditable="true"></div>
+      <!--text box which will contain spoken text -->
+      <i class="fa fa-microphone" aria-hidden="true"></i>
+    </div>
+      <!-- microphone icon to be clicked before speaking -->
+    </div>
+
+    <audio class="sound" src="chime.mp3"></audio>
+    <!-- sound to be played when we click icon => http://soundbible.com/1598-Electronic-Chime.html -->
+
+    <script src="app.js"></script>
+    <!-- link to app.js script -->
+  </body>
+</html>
